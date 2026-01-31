@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Areté Soluciones | Nosotros</title>
+  <link rel="icon" href="assets/logo-arete.png.png" type="image/png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { --brand-primary:#3b6bd6; --brand-primary-dark:#2f5cc2; --brand-dark:#0b1b2b; }
+    .text-brand { color: var(--brand-primary); }
+    .text-brand-dark { color: var(--brand-dark); }
+    .bg-brand { background-color: var(--brand-primary); }
+    .hover-text-brand:hover { color: var(--brand-primary); }
+    .section-panel { background: linear-gradient(180deg, rgba(12,22,38,0.85) 0%, rgba(10,18,32,0.95) 100%); border-top:1px solid rgba(59,107,214,0.16); border-bottom:1px solid rgba(59,107,214,0.1); }
+    .title-accent { position: relative; display: inline-block; }
+    .title-accent::after { content:""; position:absolute; left:0; bottom:-10px; width:60%; height:2px; background: linear-gradient(90deg, rgba(59,107,214,0.9), transparent); box-shadow: 0 0 12px rgba(59,107,214,0.6); }
+  </style>
+</head>
+<body class="font-sans bg-brand-dark text-slate-100 text-base md:text-[17px] leading-relaxed">
+  <header class="bg-white/80 text-brand-dark fixed w-full z-50 shadow-sm backdrop-blur">
+    <div class="container mx-auto flex justify-between items-center py-4 px-4 md:px-0">
+      <a href="index.html" class="flex items-center">
+        <img src="assets/arete_logo_lockup.png.png" alt="Areté Soluciones" class="h-11 md:h-12 w-auto" />
+      </a>
+      <nav class="hidden md:flex space-x-6">
+        <a href="index.html" class="text-brand-dark hover-text-brand">Inicio</a>
+        <a href="servicios.html" class="text-brand-dark hover-text-brand">Servicios</a>
+        <a href="nosotros.html" class="text-brand-dark hover-text-brand">Nosotros</a>
+        <a href="equipo.html" class="text-brand-dark hover-text-brand">Equipo</a>
+        <a href="blog.html" class="text-brand-dark hover-text-brand">Blog</a>
+        <a href="contacto.html" class="text-brand-dark hover-text-brand">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="pt-28 pb-20 section-panel">
+    <div class="container mx-auto px-4 text-center">
+      <h1 class="text-3xl md:text-4xl font-bold mb-6">Nosotros</h1>
+      <p class="text-base md:text-lg max-w-3xl mx-auto">Somos un equipo especializado en estrategia, IA aplicada y ciberseguridad. Trabajamos con una mirada integral para generar impacto real en negocios en crecimiento.</p>
+    </div>
+  </section>
+
+  <section class="py-16">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-2xl md:text-3xl font-bold mb-6 title-accent">Nuestra filosofía</h2>
+      <p class="text-base md:text-lg max-w-3xl mx-auto">Creemos en decisiones basadas en datos, seguridad como habilitador de negocio y soluciones de IA que generen retorno tangible.</p>
+    </div>
+  </section>
+
+  <footer class="bg-brand-dark text-white py-6 text-center">
+    <p>© 2025 Areté Soluciones | <a href="#" class="underline">Política de Privacidad</a></p>
+  </footer>
+</body>
+</html>

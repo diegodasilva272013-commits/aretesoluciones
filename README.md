@@ -2,13 +2,13 @@
 
 Sitio institucional (estático) para Areté Soluciones.
 
-## Secciones
-- Inicio
-- Servicios
-- Nosotros
-- Equipo
-- Blog
-- Contacto
+## Páginas
+- index.html (Inicio)
+- servicios.html
+- nosotros.html
+- equipo.html
+- blog.html
+- contacto.html
 
 ## Activos
 Copia los logos a la carpeta assets/: 
